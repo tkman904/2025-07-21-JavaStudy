@@ -152,7 +152,7 @@ public class MemberDAO {
 				
 				if(db_pwd.equals(pwd)) {
 					vo.setMsg("로그인 성공");
-					vo.setName(id);
+					vo.setId(id);
 					vo.setAddr1(addr1);
 					vo.setName(name);
 				}
